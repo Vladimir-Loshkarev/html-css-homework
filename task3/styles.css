@@ -1,0 +1,73 @@
+body {
+    background-color: darkolivegreen;
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    background-color: darkgreen;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: bisque;
+}
+
+main {
+    align-items: center;
+}
+
+h2 {
+    color: beige;
+    text-align: center;
+}
+
+.katalog {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.tovar {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 4px solid #ffffffb1;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tovar h3 {
+    text-align: center;
+}
+
+.tovar p {
+    text-align: justify;
+}
+
+.tovar img {
+    margin: 4px;
+    border: 2px solid black;
+}
+
+.tovar button {
+    background-color: green;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: bisque;
+}
+
+.tovar button:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-size: 17px;
+}
