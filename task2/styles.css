@@ -1,0 +1,30 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    width: 85%;
+}
+
+main p {
+    margin: 10%;
+    text-align: justify;
+}
+
+img {
+    width: 448px;
+    height: 313px;
+}
+
+footer {
+    background-color: azure;
+    text-align: center;
+    font-size: 8px;
+    margin-top: 70px;
+}
